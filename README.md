@@ -4,7 +4,7 @@ This repository is a collection of practical TypeScript demo projects showing ho
 
 ## Examples
 
-The repository includes several examples (each in its own folder) giving more details on how to work with OpenPay’s use cases:
+This repository includes several examples (each in its own folder) giving more details on how to work with OpenPay’s use cases:
 
 - **Hosted Checkout:** Shows how to create a hosted checkout session with OpenPay’s REST API and redirects the user to a payment page. Using the TypeScript SDK, the example calls `client.checkoutApi.createCheckoutSession(...)` to generate a session and then redirects to `checkoutSession.url`. This mirrors the OpenPay docs example for creating a subscription checkout.
 - **One-time Invoice:** This showcases creating and paying a one-off invoice via the API. OpenPay supports one-time (non-subscription) invoices for single purchases. This example uses the SDK to draft an invoice (`createInvoice`) for a customer and then finalize/pay it. The code closely follows the official recipe for one-off payments (creating an invoice with `invoiceType=ONE_OFF` and then finalizing it).
