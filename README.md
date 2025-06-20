@@ -34,8 +34,8 @@ These examples use the official [OpenPay TypeScript SDK package](https://www.npm
     This will install the OpenPay client and other dependencies. (For example, you should see `@getopenpay/client` installed – you can also run `npm install @getopenpay/client` explicitly as shown in the code that works with OpenPay’s SDK.)
     
 3. **Configure API keys:**
-    
-Refer to this guide to learn how to get your [Secret and Publishable keys](https://docs.getopenpay.com/developer-resources/integrations/api-integration#api-keys) in OpenPay.
+
+    Refer to this guide to learn how to get your [Secret and Publishable keys](https://docs.getopenpay.com/developer-resources/integrations/api-integration#api-keys) in OpenPay.
 
    You need to supply your OpenPay **Publishable Key** and **Secret Key**. Edit the example’s configuration (often in code or a `.env` file) to include:
     
