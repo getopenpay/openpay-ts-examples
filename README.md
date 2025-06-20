@@ -12,7 +12,7 @@ This repository includes several examples (each in its own folder) giving more d
 
 ## OpenPay SDK Version
 
-These examples use the official OpenPay TypeScript SDK package `@getopenpay/client`. At the time of writing, the latest version is **0.0.17**. All example code assumes this (or a compatible) version of the SDK is installed. Make sure your `package.json` references the same version or newer.
+These examples use the official [OpenPay TypeScript SDK package](https://www.npmjs.com/package/@getopenpay/client?activeTab=readme) `@getopenpay/client`. All example code assumes this (or a compatible) version of the SDK is installed. Make sure your `package.json` references the same version or newer.
 
 ## Setup & Installation
 
@@ -35,7 +35,9 @@ These examples use the official OpenPay TypeScript SDK package `@getopenpay/clie
     
 3. **Configure API keys:**
     
-    You need to supply your OpenPay **Publishable Key** and **Secret Key**. Edit the example’s configuration (often in code or a `.env` file) to include:
+Refer to this guide to learn how to get your [Secret and Publishable keys](https://docs.getopenpay.com/developer-resources/integrations/api-integration#api-keys) in OpenPay.
+
+   You need to supply your OpenPay **Publishable Key** and **Secret Key**. Edit the example’s configuration (often in code or a `.env` file) to include:
     
     ```tsx
     const config = new Configuration({
@@ -48,7 +50,7 @@ These examples use the official OpenPay TypeScript SDK package `@getopenpay/clie
     
     (This follows the official setup pattern in the [hosted checkout docs](https://docs.getopenpay.com/product-fundamentals/receiving-payments/hosted-checkout-form#:~:text=import%20,getopenpay%2Fclient%27%3B%20import%20OpenPayClient%20from%20%27%40getopenpay%2Fclient%2Fclient).) Replace the placeholders with your actual API credentials from the OpenPay dashboard.
     
-4. **Other settings:**
+5. **Other settings:**
     - Make sure you have Node.js ≥14 installed.
 
 ## Usage
@@ -72,4 +74,4 @@ Each example typically runs as a small server or script. To launch an example:
 
 ## Learn More
 
-For detailed API references and guides, see the [OpenPay’s Official documentation](https://www.notion.so/Docs-v2-1d8ce205d0e480819f6fcf49c8dfc65e?pvs=21).
+For detailed API references and guides, see the [OpenPay’s Official documentation](https://docs.getopenpay.com/).
